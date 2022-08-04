@@ -3,6 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
   position: relative;
   overflow-x: hidden;
+  background: #aaa;
 }
 
 header {
@@ -76,7 +77,13 @@ header .bot {
 header .bot .wrapper {
   position: relative;
 }
-
+.carousel-indicators button {
+  border-radius: 100%;
+  height: 10px !important;
+  width: 10px !important;
+  margin: 0 10px !important;
+  background-color: #aaa;
+}
 footer {
   display: block;
 }
