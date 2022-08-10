@@ -129,6 +129,14 @@ header .bot .navbar .nav-item:hover .dropdown-menu {
   position: relative;
 }
 
+.top-menu {
+  height: 50px;
+  margin-top: -53px;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  z-index: 100;
+}
+
 .content-std .inner-content {
   padding: 70px 210px 125px;
   position: relative;
@@ -170,6 +178,27 @@ header .bot .navbar .nav-item:hover .dropdown-menu {
   width: 10px !important;
   margin: 0 10px !important;
   background-color: #aaa;
+}
+
+ul {
+  list-style: none;
+}
+
+.top-menu .left.breadcrumb ul li {
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  font-size: 12px;
+  font-family: Lora, serif;
+  color: #666;
+  font-weight: 700;
+}
+
+.left,
+.right {
+  display: inline;
 }
 
 .box-share-right {
