@@ -66,6 +66,12 @@ a {
   cursor: pointer;
 }
 
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
 header .bot {
   position: relative;
   width: 100%;
@@ -75,6 +81,86 @@ header .bot {
 }
 
 header .bot .wrapper {
+  position: relative;
+}
+
+header .bot .navbar .nav-item:hover .nav-link {
+  color: #1b2287;
+}
+
+header .bot .navbar .dropdown-menu .fade-down {
+  top: 80%;
+  transform: rotateX(-75deg);
+  transform-origin: 0% 0%;
+}
+
+header .bot .navbar .nav-item:hover .dropdown-menu {
+  transition: 0.3s;
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+  transform: rotateX(0deg);
+}
+
+#navbarSupportedContent {
+  transition: height 1.5s ease;
+}
+
+.middle-content {
+  background: #f5f5f5;
+  position: relative;
+  z-index: 2;
+}
+
+.banner-std {
+  z-index: 1;
+}
+
+.banner-std img {
+  display: block;
+  height: 380px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content-std {
+  background: #fff;
+  z-index: 5;
+  position: relative;
+}
+
+.content-std .inner-content {
+  padding: 70px 210px 125px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.content-std h1 {
+  position: relative;
+  font-size: 38px;
+  font-weight: 700;
+  color: #1b2287;
+  padding-bottom: 30px;
+  margin-bottom: 45px;
+  max-width: 680px;
+}
+
+.content-std h1:after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background: #1b2287;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.slide-overview {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.sub-content {
   position: relative;
 }
 
