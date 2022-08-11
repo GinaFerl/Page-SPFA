@@ -184,6 +184,11 @@ ul {
   list-style: none;
 }
 
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
 .top-menu .left.breadcrumb ul li {
   display: inline-block;
   vertical-align: top;
@@ -194,6 +199,37 @@ ul {
   font-family: Lora, serif;
   color: #666;
   font-weight: 700;
+}
+
+.top-menu .right.submenu {
+  position: relative;
+}
+
+.top-menu .right.submenu .navbar-nav .nav-link:hover {
+  color: #1b2287;
+}
+
+.top-menu .right.submenu span {
+  line-height: 50px;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+
+.top-menu .right.submenu .ico {
+  background: #1b2287;
+  float: right;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  content: "";
+  display: block;
+}
+
+.box-drop-dots-menu ul {
+  padding-left: 20px;
 }
 
 .left,
