@@ -74,6 +74,21 @@ a {
   cursor: pointer;
 }
 
+#sixthHomejt {
+  background-image: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  height: 450px;
+  text-align: center;
+}
+
+#sixthHomejt h1 {
+  padding-top: 250px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
@@ -112,6 +127,27 @@ a {
 
   .sub-content p {
     text-align: left;
+  }
+
+  #sixthHomejt {
+    background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 350px;
+    text-align: center;
+  }
+
+  #sixthHomejt h1 {
+    padding-top: 165px;
+    font-size: 35px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .arrow-bottom {
+    display: none;
   }
 }
 
