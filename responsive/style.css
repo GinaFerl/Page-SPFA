@@ -43,6 +43,15 @@ header {
   background-color: #aaa;
 }
 
+.news-event .title-right h6 {
+  text-align: right;
+}
+
+/* .home-card img:hover {
+  background-color: #ffc107;
+  opacity: 0.5;
+} */
+
 a {
   text-decoration: none !important;
   cursor: pointer;
@@ -89,6 +98,17 @@ a {
   font-weight: 700;
 }
 
+.card-group .card .card-img-overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.card-group .card .card-img-overlay:hover {
+  background-color: rgba(156, 33, 17, 0.6);
+  opacity: 1;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
@@ -107,6 +127,10 @@ a {
 
   .navbar-collapse {
     background-color: rgb(16, 3, 87);
+  }
+
+  .news-event .title-right h6 {
+    text-align: left;
   }
 
   .copyright {
